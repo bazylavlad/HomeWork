@@ -12,7 +12,7 @@ namespace HomeWork.Tests.Controllers
         public void Index()
         {
             // Arrange
-            HomeController controller = new HomeController();
+            RecordsController controller = new RecordsController();
 
             // Act
             ViewResult result = controller.Index() as ViewResult;

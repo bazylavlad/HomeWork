@@ -13,11 +13,11 @@ namespace HomeWork
 
             // Web API routes
             config.MapHttpAttributeRoutes();
-
+            
             config.Routes.MapHttpRoute(
-                name: "DefaultApi",
-                routeTemplate: "api/{controller}/{id}",
-                defaults: new { id = RouteParameter.Optional }
+                name: "DefaultApiWithAction",
+                routeTemplate: "{controller}/{action}/{id}",
+                defaults: new { action = "Index", id = RouteParameter.Optional }
             );
         }
     }

@@ -1,0 +1,4 @@
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAccess\bin\Debug\HomeWork.DataAccess.dll
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAccess\bin\Debug\HomeWork.DataAccess.pdb
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAccess\obj\Debug\HomeWork.DataAccess.dll
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAccess\obj\Debug\HomeWork.DataAccess.pdb

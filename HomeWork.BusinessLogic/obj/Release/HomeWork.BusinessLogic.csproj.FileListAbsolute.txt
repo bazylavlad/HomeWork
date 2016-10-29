@@ -1,0 +1,7 @@
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.BusinessLogic\bin\Release\HomeWork.BusinessLogic.dll
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.BusinessLogic\bin\Release\HomeWork.BusinessLogic.pdb
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.BusinessLogic\bin\Release\HomeWork.DataAccess.dll
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.BusinessLogic\bin\Release\HomeWork.DataAccess.pdb
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.BusinessLogic\obj\Release\HomeWork.BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.BusinessLogic\obj\Release\HomeWork.BusinessLogic.dll
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.BusinessLogic\obj\Release\HomeWork.BusinessLogic.pdb

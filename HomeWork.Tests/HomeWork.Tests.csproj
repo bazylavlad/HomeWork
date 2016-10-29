@@ -93,7 +93,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
-    <Compile Include="Controllers\ValuesControllerTest.cs" />
+    <Compile Include="Repositories\MemoryRepositoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -102,6 +102,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HomeWork.DataAccess\HomeWork.DataAccess.csproj">
+      <Project>{0015ECFC-8AEE-489A-BCFD-5B30DF4E7ECD}</Project>
+      <Name>HomeWork.DataAccess</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HomeWork\HomeWork.csproj">
       <Project>{A837FFBA-A99C-4EF8-85EF-3DB536FBCCB0}</Project>
       <Name>HomeWork</Name>
