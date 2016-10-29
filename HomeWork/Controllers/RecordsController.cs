@@ -1,4 +1,6 @@
 ﻿using HomeWork.BusinessLogic;
+using HomeWork.DataAccess.Models;
+using HomeWork.DataAccess.Models.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,46 +11,58 @@ namespace HomeWork.Controllers
 {
     public class RecordsController : ApiController
     {
-        List<Human> listHumans;
         HumanManager humanManager;
 
         public RecordsController()
         {
             humanManager = new HumanManager();
-            listHumans = new List<Human>();
-            listHumans.Add(new Human() { year = 13, name = "Alina", gender = false });
-            listHumans.Add(new Human() { year = 13, name = "Alina", gender = false });
-            listHumans.Add(new Human() { year = 11, name = "Vova", gender = true });
-
         }
 
-        public class Human
-        {
-            public int year;
-            public string name;
-            public bool gender;
-        }
-        
+        /// <summary>
+        /// POST request based function that parses and then returns Human object in JSON format or an error.
+        /// </summary>
+        /// <param name="record">String that will be parsed into Human instance.</param>
+        /// <returns>JSON that contains parsed Human instance or an error in case of Bad Request.</returns>
         [HttpPost]
-        public object Index([FromBody]string record)
+        public object Index([FromBody] string record)
         {
-            var human = new Human(); //HumanParser.Parse(record);
-            human.name = "asdasd";
-            //humanManager.AddHuman(human);
-            return human;
-            return BadRequest("Invalid request");
+            var human = HumanParser.Parse(record);
+            if (human != null)
+            {
+                humanManager.AddHuman(human);
+                return human;
+            }
+            else return BadRequest("Invalid request");
         }
-        
+
+        /// <summary>
+        /// GET request based function that returns all known Humans sorted by Gender and then by Last Name parameter.
+        /// </summary>
+        /// <returns>JSON</returns>
         [HttpGet]
         public IEnumerable<Human> Gender()
         {
-            return listHumans.OrderBy(h => h.gender);
+            return humanManager.GetHumans(SortType.ByGenderAndLastName);
         }
 
+        /// <summary>
+        /// GET request based function that returns all known Humans sorted by LastName parameter.
+        /// </summary>
+        /// <returns>JSON</returns>
         [HttpGet]
-        public IEnumerable<Human> Name()
+        public IEnumerable<Human> LastName()
         {
-            return listHumans.OrderBy(h => h.name).Reverse();
+            return humanManager.GetHumans(SortType.ByLastName);
+        }
+
+        /// <summary>
+        /// GET request based function that returns all known Humans sorted by Birth Date parameter.
+        /// </summary>
+        /// <returns>JSON</returns>
+        [HttpGet]
+        public IEnumerable<Human> BirthDate()
+        {
+            return humanManager.GetHumans(SortType.ByBirthDate);
         }
     }
 }

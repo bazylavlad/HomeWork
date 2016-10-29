@@ -1,0 +1,10 @@
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\bin\Debug\HomeWork.ConsoleApp.exe.config
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\bin\Debug\HomeWork.ConsoleApp.exe
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\bin\Debug\HomeWork.ConsoleApp.pdb
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\bin\Debug\HomeWork.BusinessLogic.dll
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\bin\Debug\HomeWork.DataAccess.dll
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\bin\Debug\HomeWork.BusinessLogic.pdb
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\bin\Debug\HomeWork.DataAccess.pdb
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\obj\Debug\HomeWork.ConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\obj\Debug\HomeWork.ConsoleApp.exe
+C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork.ConsoleApp\obj\Debug\HomeWork.ConsoleApp.pdb

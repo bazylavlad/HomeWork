@@ -58,3 +58,5 @@ C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork\obj\Rele
 C:\Users\bazyla\documents\visual studio 2015\Projects\HomeWork\HomeWork\obj\Release\HomeWork.pdb
 C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork\bin\HomeWork.BusinessLogic.dll
 C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork\bin\HomeWork.BusinessLogic.pdb
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork\bin\HomeWork.DataAccess.dll
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork\bin\HomeWork.DataAccess.pdb

@@ -54,6 +54,10 @@
       <Project>{ed4fd3ea-e2c4-440b-bcab-23b7b412b14a}</Project>
       <Name>HomeWork.BusinessLogic</Name>
     </ProjectReference>
+    <ProjectReference Include="..\HomeWork.DataAccess\HomeWork.DataAccess.csproj">
+      <Project>{0015ECFC-8AEE-489A-BCFD-5B30DF4E7ECD}</Project>
+      <Name>HomeWork.DataAccess</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

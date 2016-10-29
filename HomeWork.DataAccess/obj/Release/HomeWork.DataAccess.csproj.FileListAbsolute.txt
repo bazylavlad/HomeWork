@@ -2,3 +2,4 @@ C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAcce
 C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAccess\bin\Release\HomeWork.DataAccess.pdb
 C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAccess\obj\Release\HomeWork.DataAccess.dll
 C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAccess\obj\Release\HomeWork.DataAccess.pdb
+C:\Users\bazyla\Documents\Visual Studio 2015\Projects\HomeWork\HomeWork.DataAccess\obj\Release\HomeWork.DataAccess.csprojResolveAssemblyReference.cache

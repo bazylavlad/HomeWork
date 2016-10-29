@@ -19,6 +19,10 @@ namespace HomeWork.DataAccess.Repositories
         }
 
         static MemoryRepository instance;
+       
+        /// <summary>
+        /// Basic implementation of synch Singleton.
+        /// </summary>
         public static MemoryRepository Instance
         {
             get
@@ -36,10 +40,21 @@ namespace HomeWork.DataAccess.Repositories
                 return instance;
             }
         }
-
-        public void Add()
+        /// <summary>
+        /// This function adds new instance of Human to the list of all known Humans.
+        /// </summary>
+        /// <param name="human">Human that is going to be added.</param>
+        public void Add(Human human)
         {
-            throw new NotImplementedException();
+            humans.Add(human);
+        }
+        /// <summary>
+        /// This function returns list of known Humans.
+        /// </summary>
+        /// <returns>List of all known Humans.</returns>
+        public List<Human> GetList()
+        {
+            return humans;
         }
     }
 }
