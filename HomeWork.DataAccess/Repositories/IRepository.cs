@@ -11,5 +11,6 @@ namespace HomeWork.DataAccess.Repositories
     {
         void Add(Human human);
         List<Human> GetList();
+        void Clear();
     }
 }

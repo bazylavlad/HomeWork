@@ -56,5 +56,10 @@ namespace HomeWork.DataAccess.Repositories
         {
             return humans;
         }
+
+        public void Clear()
+        {
+            humans.Clear();
+        }
     }
 }

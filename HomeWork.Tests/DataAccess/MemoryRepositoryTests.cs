@@ -51,7 +51,7 @@ namespace HomeWork.DataAccess.Repositories.Tests
         }
 
         [TestMethod()]
-        public void GetInstanceTest()
+        public void GetRepositoryInstanceTest()
         {
             MemoryRepository rep;
             if ((rep = MemoryRepository.Instance) == null)
@@ -66,6 +66,28 @@ namespace HomeWork.DataAccess.Repositories.Tests
             MemoryRepository mr = MemoryRepository.Instance;
             List<Human> humanList;
             if ((humanList = mr.GetList()) == null)
+            {
+                Assert.Fail();
+            }
+        }
+
+        [TestMethod()]
+        public void ClearTest()
+        {
+            MemoryRepository mr = MemoryRepository.Instance;
+            Human testHuman = new Human
+            {
+                FirstName = "John",
+                LastName = "Doe",
+                FavoriteColor = Colors.Silver,
+                DateOfBirth = new DateTime(1995, 8, 22),
+                Gender = Genders.Male
+            };
+
+            mr.Add(testHuman);
+            mr.Clear();
+            var result = mr.GetList();
+            if (result.Count > 0)
             {
                 Assert.Fail();
             }

@@ -32,8 +32,8 @@ namespace HomeWork.BusinessLogic
         /// This function returns list of all known humans, sorted in choosen order.
         /// </summary>
         /// <param name="sortType">Sort type.</param>
-        /// <returns>Sorted list of Humans.</returns>
-        public List<Human> GetHumans(SortType sortType)
+        /// <returns>Sorted list of Humans (by default sorted by last name).</returns>
+        public List<Human> GetHumans(SortType sortType = SortType.ByLastName)
         {
             switch (sortType)
             {
@@ -52,6 +52,13 @@ namespace HomeWork.BusinessLogic
                                              .ToList();
             }
             return null;
+        }
+        /// <summary>
+        /// Removes all records form repository.
+        /// </summary>
+        public void Clear()
+        {
+            repository.Clear();
         }
     }
 }

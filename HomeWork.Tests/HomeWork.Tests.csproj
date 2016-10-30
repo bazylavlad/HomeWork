@@ -91,8 +91,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLogic\HumanManagerTests.cs" />
+    <Compile Include="BusinessLogic\HumanParserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Repositories\MemoryRepositoryTests.cs" />
+    <Compile Include="DataAccess\MemoryRepositoryTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -101,6 +103,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HomeWork.BusinessLogic\HomeWork.BusinessLogic.csproj">
+      <Project>{ED4FD3EA-E2C4-440B-BCAB-23B7B412B14A}</Project>
+      <Name>HomeWork.BusinessLogic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HomeWork.DataAccess\HomeWork.DataAccess.csproj">
       <Project>{0015ECFC-8AEE-489A-BCFD-5B30DF4E7ECD}</Project>
       <Name>HomeWork.DataAccess</Name>
